@@ -1,10 +1,11 @@
 # LapLegend
 
-LapLegend is a Formula 1 inspired web application built with PHP, MySQL,
-HTML, CSS, JavaScript, and Bootstrap.
+LapLegend is a Formula 1 inspired web application developed using PHP,
+MySQL, HTML, CSS, JavaScript, and Bootstrap.
 
-The project provides a structured platform for browsing races, viewing
-information, registering users, logging in, and booking race tickets.
+The project provides a platform for users to browse Formula 1 races,
+register/login, view race information, and book race tickets.
+It also includes an admin panel for managing races and bookings.
 
 ## Features
 
@@ -17,7 +18,7 @@ information, registering users, logging in, and booking race tickets.
 - Booking records
 - Gallery
 - Contact page
-- Database-driven content
+- MySQL database integration
 - Responsive web interface
 
 ## Technology Stack
@@ -28,20 +29,34 @@ information, registering users, logging in, and booking race tickets.
 - CSS3
 - JavaScript
 - Bootstrap
-- XAMPP / WAMP
+- XAMPP
 - phpMyAdmin
 
 ## Project Structure
 
 ```text
-assets/
-├── css/
-└── images/
-
-includes/
-├── dbconnection.php
-├── header.php
-└── footer.php
-
-*.php
-database.sql
+laplegend/
+├── assets/
+│   ├── css/
+│   └── images/
+├── docs/
+│   ├── LapLegend-Project-Presentation.pptx
+│   └── LapLegend-Project.docx
+├── includes/
+│   ├── dbconnection.php
+│   ├── header.php
+│   └── footer.php
+├── database.sql
+├── index.php
+├── about.php
+├── races.php
+├── book.php
+├── gallery.php
+├── contact.php
+├── login.php
+├── register.php
+├── logout.php
+├── admin_login.php
+├── admin.php
+├── add_admin.php
+└── README.md
